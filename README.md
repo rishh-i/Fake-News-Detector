@@ -4,7 +4,10 @@
 Algorithm uses TF-IDF vectorisation (Term Frequency-Inverse Document Frequency) to differentiate between real and fake news. It evaluates the importance of a word in a document relative to a collection of documents - in this case, news articles. 
 
 Term frequency is calculated by the number of times a word appears in a document divided by the total number of words in the document.
-Inverse Document Frequency is the measure of how important a word is within the entire set of documents. It is calculated by taking the log of the total number of documents divided by the number of documents containing the word. If a word appears in every document, its IDF will be very small, indicating it’s common and not helpful for distinguishing between real and fake articles. 
+
+Inverse Document Frequency is the measure of how important a word is within the entire set of documents.
+It is calculated by taking the log of the total number of documents divided by the number of documents containing the word.
+If a word appears in every document, its IDF will be very small, indicating it’s common and not helpful for distinguishing between real and fake articles.
 
 TF-IDF is the product of TF and IDF calculations.
 
